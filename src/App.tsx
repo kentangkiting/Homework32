@@ -9,23 +9,23 @@ import { TodoContext } from "./todocontext";
 function App() {
   const ctx = useContext(TodoContext);
   const ctxCount = useContext(CounterContext);
-  const [todoItem, setTodoItem] = useState([
-    {
-      id: 1,
-      name: "Name1",
-      counter: 0,
-    },
-    {
-      id: 2,
-      name: "Name2",
-      counter: 0,
-    },
-    {
-      id: 3,
-      name: "Name3",
-      counter: 0,
-    },
-  ]);
+  // const [todoItem, setTodoItem] = useState([
+  //   {
+  //     id: 1,
+  //     name: "Name1",
+  //     counter: 0,
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Name2",
+  //     counter: 0,
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Name3",
+  //     counter: 0,
+  //   },
+  // ]);
   const navigate = useNavigate();
   return (
     <>
